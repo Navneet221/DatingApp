@@ -17,6 +17,6 @@ namespace Dating_Api.Data
 
         //property --To use Value class we have declared namespace above-Dating_Api.Models;
         public DbSet<Value> Values { get; set; }
-
+        public DbSet<User> User{ get; set; }
     }
 }
